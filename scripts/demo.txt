@@ -1,0 +1,10 @@
+show
+set gain 10
+set range 2
+set mode MANUAL
+show
+undo
+show
+redo
+show
+exit
