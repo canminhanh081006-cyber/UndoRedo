@@ -1,0 +1,4 @@
+set gain 1
+set mode AUTO
+set gain 2
+search gain

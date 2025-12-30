@@ -1,0 +1,3 @@
+set gain 7
+set range 3
+report tests/out/report.csv

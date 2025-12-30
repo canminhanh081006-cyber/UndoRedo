@@ -1,0 +1,6 @@
+set gain 1
+set gain 2
+undo
+set gain 99
+redo
+show

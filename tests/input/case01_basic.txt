@@ -1,0 +1,4 @@
+set gain 10
+set range 2
+set mode AUTO
+show

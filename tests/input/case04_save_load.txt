@@ -1,0 +1,6 @@
+set gain 5
+set mode MANUAL
+save tests/out/session.txt
+set gain 9
+load tests/out/session.txt
+show
