@@ -1,2 +1,0 @@
-set gain 5
-set mode MANUAL
