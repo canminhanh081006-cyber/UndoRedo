@@ -1,16 +1,18 @@
-# \# UndoRedo
+\# UndoRedo
 
-# 
 
-# \## Build (MSYS2 UCRT64)
 
-# 
+\## Build (MSYS2 / Git Bash)
 
-# ```bash
 
-# cd /c/UndoRedo
 
-# g++ -std=c++17 -Ibaogom -o build/UndoRedo.exe nguon/main.cpp nguon/app/menu.cpp nguon/core/command.cpp
+```bash
+
+cd /c/UndoRedo
+
+mkdir -p build
+
+g++ -std=c++17 -O2 -Ibaogom -Inguon -o build/undo.exe $(find nguon -name "\*.cpp")
 
 
 
