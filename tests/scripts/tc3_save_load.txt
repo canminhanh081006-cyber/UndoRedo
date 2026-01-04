@@ -1,0 +1,8 @@
+set gain 7
+set range 8
+set mode MANUAL
+save data/out/snapshot.txt
+set gain 999
+load data/out/snapshot.txt
+show
+exit

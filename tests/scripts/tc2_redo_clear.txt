@@ -1,0 +1,9 @@
+set gain 1
+set gain 2
+set gain 3
+undo 2
+# sau undo, nhập lệnh mới -> redo phải bị xóa
+set gain 99
+redo 1
+show
+exit

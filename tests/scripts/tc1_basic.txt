@@ -1,0 +1,11 @@
+set gain 10
+set range 5
+set mode AUTO
+show
+undo 2
+show
+redo 1
+show
+export data/out/report.csv
+save data/out/snapshot.txt
+exit

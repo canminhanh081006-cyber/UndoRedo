@@ -1,13 +1,22 @@
-# Hướng dẫn build & chạy (Undo/Redo CLI)
+# Hướng dẫn chạy (ngắn gọn để chấm)
 
-## Ký hiệu
-- `$`: lệnh chạy trong terminal (MSYS2 UCRT64 / Git Bash)
-- `>>`: lệnh nhập bên trong chương trình UndoRedo
-
-## 1) Build (ở `$`)
-> Mở Git Bash (hoặc MSYS2 UCRT64) và cd vào thư mục project (nơi có Makefile).
-
+## Build
+- MSYS2/Git Bash:
 ```bash
 cd /c/UndoRedo
-make clean
 make
+```
+
+## Run
+```bash
+./build/app.exe
+```
+
+## Chạy script test
+```bash
+./build/app.exe < tests/scripts/tc1_basic.txt > tests/out/tc1.out
+```
+
+## File sinh ra
+- data/out/report.csv
+- data/out/snapshot.txt

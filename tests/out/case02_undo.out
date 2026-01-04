@@ -1,0 +1,18 @@
+UndoRedo CLI
+Commands:
+  set <gain|range|mode> <value>
+  show | undo | redo | exit
+  run <script_path>
+  save <out_path>
+  load <in_path>
+  search <keyword>
+  report <csv_path>
+  export <csv_path>    (alias of report)
+> OK
+OK
+OK
+Undone
+Undone
+gain=1, range=0, mode=AUTO
+Done.
+> 
